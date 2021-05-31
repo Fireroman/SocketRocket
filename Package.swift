@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
    name: "SocketRocket",
    platforms: [
-      .iOS(.v8)
+      .iOS(.v10)
    ],
    products: [
       .library(name: "SocketRocket", targets: ["SocketRocket"])
