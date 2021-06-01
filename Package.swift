@@ -7,7 +7,7 @@ let package = Package(
       .iOS(.v10)
    ],
    products: [
-      .library(name: "SocketRocket", targets: ["SocketRocket", "~> 0.5.1"])
+      .library(name: "SocketRocket", targets: ["SocketRocket"])
    ],
    targets: [
       .target(
